@@ -20,16 +20,17 @@
         <div class="header-box">
           <a class="header-button button transition" href="#">Contact</a>
         </div>
+        <i class="header-hamburger fas fa-bars"></i>
       </div>
     </header>
-    <main>
-      <div>
-        <div class="theme-content inner">
-          <h1 class="theme-content__main">Bolt Theme</h1>
-          <p class="theme-content__sub"> FREE BOOTSTRAP THEMES</p>
+    <main class="main">
+      <div class="theme">
+        <div class="theme-inner inner">
+          <h1 class="theme-inner__main">Bolt Theme</h1>
+          <p class="theme-inner__sub"> FREE BOOTSTRAP THEMES</p>
         </div>
       </div>
-      <section class="introduction-wrapper">
+      <section class="introduction">
         <div class="introduction-inner inner">
           <div class="introduction-img">
             <img src="./img/iphone.png" alt="iphoneの画像" class="introduction-img__image">
@@ -42,16 +43,28 @@
           </div>
         </div>
       </section>
-      <article class="article-wrapper">
+      <article class="article">
         <div class="article-inner inner">
           <h2 class="article-title">OUR LATEST WORK</h2>
           <div class="article-img">
-            <img src="./img/01.jpg" alt="1枚目のイメージ画像" class="article-img__image transition">
-            <img src="./img/02.jpg" alt="2枚目のイメージ画像" class="article-img__image transition">
-            <img src="./img/03.jpg" alt="3枚目のイメージ画像" class="article-img__image transition">
-            <img src="./img/04.jpg" alt="4枚目のイメージ画像" class="article-img__image transition">
-            <img src="./img/05.jpg" alt="5枚目のイメージ画像" class="article-img__image transition">
-            <img src="./img/06.jpg" alt="6枚目のイメージ画像" class="article-img__image transition">
+            <a href="#" class="article-img__image transition">
+              <img src="./img/01.jpg" alt="1枚目のイメージ画像">
+            </a>
+            <a href="#" class="article-img__image transition">
+              <img src="./img/02.jpg" alt="2枚目のイメージ画像">
+            </a>
+            <a href="#" class="article-img__image transition">
+              <img src="./img/03.jpg" alt="3枚目のイメージ画像">
+            </a>
+            <a href="#" class="article-img__image transition">
+              <img src="./img/04.jpg" alt="4枚目のイメージ画像">
+            </a>
+            <a href="#" class="article-img__image transition">
+              <img src="./img/05.jpg" alt="5枚目のイメージ画像">
+            </a>
+            <a href="#" class="article-img__image transition">
+              <img src="./img/06.jpg" alt="6枚目のイメージ画像">
+            </a>
           </div>
           <div class="article-content">
             <p class="article-content__text">
@@ -61,30 +74,30 @@
           </div>
         </div>
       </article>
-      <section class="skill-wrapper">
-        <div class="skill-inner inner">
-          <h2 class="skill-title">OUR SKILLS</h2>
-          <div class="skill-content">
-            <figure class="skill">
-              <img class="skill-content__img" src="./img/circle_01.png" alt="JavaScriptのスキル画像">
-              <figcaption>JavaScript</figcaption>
+      <section class="skills">
+        <div class="skills-inner inner">
+          <h2 class="skills-title">OUR SKILLS</h2>
+          <div class="skills-content">
+            <figure class="skills-content__box">
+              <img src="./img/circle_01.png" alt="JavaScriptのスキル画像">
+              <figcaption class="skills-content__text">JavaScript</figcaption>
             </figure>
-            <figure class="skill">
-              <img class="skill-content__img" src="./img/circle_02.png" alt="Bootstrapのスキル画像">
-              <figcaption>Bootstrap</figcaption>
+            <figure class="skills-content__box">
+              <img src="./img/circle_02.png" alt="Bootstrapのスキル画像">
+              <figcaption class="skills-content__text">Bootstrap</figcaption>
             </figure>
-            <figure class="skill">
-              <img class="skill-content__img" src="./img/circle_01.png" alt="WordPressのスキル画像">
-              <figcaption>WordPress</figcaption>
+            <figure class="skills-content__box">
+              <img src="./img/circle_01.png" alt="WordPressのスキル画像">
+              <figcaption class="skills-content__text">WordPress</figcaption>
             </figure>
-            <figure class="skill">
-              <img class="skill-content__img" src="./img/circle_01.png" alt="Photoshopのスキル画像">
-              <figcaption>Photoshop</figcaption>
+            <figure class="skills-content__box">
+              <img src="./img/circle_01.png" alt="Photoshopのスキル画像">
+              <figcaption class="skills-content__text">Photoshop</figcaption>
             </figure>
           </div>
         </div>
       </section>
-      <nav class="sns-wrapper">
+      <nav class="sns">
         <div class="sns-inner inner">
           <div class="sns-box transition">
             <i class="sns-box__icon fab fa-facebook-f fa-3x"></i>
@@ -101,7 +114,7 @@
         </div>
       </nav>
     </main>
-    <footer class="footer-wrapper">
+    <footer class="footer">
       <div class="inner">
         <p class="footer-text">Crafted with <i class="fas fa-heart"></i> by BlackTie.co.</p>
       </div>

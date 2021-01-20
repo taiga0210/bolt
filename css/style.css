@@ -5,6 +5,10 @@ body {
   font-family: 'Lato';
 }
 
+.main {
+  padding-top: 78px;
+}
+
 .button {
   background-color: #74cfae;
   color: #fff;
@@ -35,6 +39,7 @@ body {
 }
 
 .header-inner {
+  align-items: center;
   display: flex;
   justify-content: space-between;
 }
@@ -44,8 +49,12 @@ body {
   padding: 15px 0;
 }
 
-.header-box {
-  align-self: center;
+.header-hamburger {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  color: #ddd;
+  display: none;
+  padding: 10px;
 }
 
 .header-button {
@@ -55,26 +64,30 @@ body {
 /* main */
 
 /* div(Theme) */
-.theme-content {
-  text-align: center;
-  margin: 250px auto;
+.theme {
+  padding: 250px 0;
 }
 
-.theme-content__main {
+.theme-inner {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.theme-inner__main {
   color: #74cfae;
   font-family: 'Raleway';
   font-size: 90px;
   font-weight: 700;
 }
 
-.theme-content__sub {
+.theme-inner__sub {
   color: #c0c0c0;
   font-size: 30px;
   margin-top: 20px;
 }
 
 /* section(introduction) */
-.introduction-wrapper {
+.introduction {
   background-color: #74cfae;
   padding-top: 50px;
 }
@@ -106,7 +119,7 @@ body {
 }
 
 /* article */
-.article-wrapper {
+.article {
   padding: 60px 0 70px 0;
 }
 
@@ -152,29 +165,31 @@ body {
 }
 
 /* section(skill) */
-.skill-wrapper {
+.skills {
   background-color: #4e4e4e;
   color: #fff;
   padding: 70px 0 100px 0;
   text-align: center;
 }
 
-.skill-title {
+.skills-title {
+  font-family: 'Raleway';
   font-size: 24px;
-  margin-bottom: 40px;
 }
 
-.skill-content {
+.skills-content {
   display: flex;
   justify-content: space-around;
+  margin-top: 40px;
 }
 
-.skill-content__img {
-  margin-bottom: 20px;
+.skills-content__text {
+  font-size: 16px;
+  margin-top: 20px;
 }
 
 /* nav(sns) */
-.sns-wrapper {
+.sns {
   padding: 200px 0;
 }
 
@@ -200,7 +215,7 @@ body {
 }
 
 /* footer */
-.footer-wrapper {
+.footer {
   background-color: #74cfae;
   padding: 20px 0 25px 0;
 }
