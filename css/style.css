@@ -203,6 +203,7 @@ body {
   display: flex;
   height: 100px;
   justify-content: center;
+  text-decoration: none;
   width: 185px;
 }
 
