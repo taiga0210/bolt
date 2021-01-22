@@ -136,19 +136,20 @@ body {
 .article-img {
   display: flex;
   flex-wrap: wrap;
+  font-size: 0;
   justify-content: space-between;
   margin-top: 40px;
 }
 
-.article-img__image {
+.article-img li a {
   opacity: .7;
 }
 
-.article-img__image:hover {
+.article-img li a:hover {
   opacity: 1;
 }
 
-.article-img__image:nth-child(n+4) {
+.article-img li:nth-child(n+4) {
   margin-top: 80px;
 }
 
@@ -187,7 +188,7 @@ body {
   margin-top: 40px;
 }
 
-.skills-content__text {
+.skills-content figcaption {
   font-size: 16px;
   margin-top: 20px;
 }
@@ -202,7 +203,7 @@ body {
   justify-content: center;
 }
 
-.sns-box {
+.sns-inner li a {
   align-items: center;
   display: flex;
   height: 100px;
@@ -211,11 +212,11 @@ body {
   width: 185px;
 }
 
-.sns-box:hover {
+.sns-inner li a:hover {
   background-color: #fff;
 }
 
-.sns-box__icon {
+.sns-inner li i {
   color: #74cfae;
 }
 
