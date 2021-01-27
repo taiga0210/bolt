@@ -60,14 +60,6 @@ body {
   display: none;
 }
 
-.header-hamburger i {
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  box-sizing: border-box;
-  color: #ddd;
-  padding: 4px;
-}
-
 .header-button {
   display: inline-block;
   padding: 14px 12px;
@@ -271,8 +263,8 @@ body {
     margin-top: 0;
   }
 
-  .article-img li:nth-child(4n) {
-    margin-top: 80px;
+  .article-img li:nth-child(3n) {
+    margin-bottom: 80px;
   }
 
   .article-content {
@@ -312,6 +304,14 @@ body {
   .header-hamburger {
     display: inline-block;
   }
+
+  .header-hamburger i {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #ddd;
+  padding: 4px;
+}
   
   /* theme */
   .theme {
